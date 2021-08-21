@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table {
+            background-color: black;
+            width: 400px;
+            color: yellow;
+        }
+
+        td {
+            padding: 5px;
+        }
+
+        #header,
+        #footer {
+            background-color: #CA8B31;
+
+        }
+
+        #signup {
+            font-size: larger;
+            padding: 5px;
+        }
+
+        #btn {
+
+            color: white;
+            border: none;
+            padding: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <table>
+        <tr id="header">
+            <td colspan="2" id="signup"> Sign Up</td>
+
+        </tr>
+
+        <tr>
+            <td>
+
+                <label for="fname">First Name</label>
+            </td>
+            <td>
+
+                <input type="text" id="fname" value="Enter First Name"><br>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+
+                <label for="lname">Last Name</label>
+            </td>
+            <td>
+
+                <input type="text" id="lname" value="Enter Last Name"><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+                <label for="dob">
+                    Date of Birth
+                </label>
+            </td>
+
+            <td>
+
+                <select id="dob">
+                    <option>
+                        Date
+                    </option>
+                </select>
+                <select id="dob">
+                    <option>
+                        Month
+                    </option>
+                </select>
+                <select id="dob">
+                    <option>
+                        Year
+                    </option>
+
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="gender">Gender</label>
+            </td>
+            <td>
+                <input type="radio" id="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female">
+                <label for="female">Female</label>
+            </td>
+
+        </tr>
+
+
+        <tr>
+            <td>
+
+                <label for="country">
+                    Country
+                </label>
+            </td>
+            <td>
+
+                <select style="width: 68%;">Country</select>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+
+                <label for="email">E-mail</label>
+            </td>
+            <td>
+
+                <input type="text" id="email" value="Enter E-mail">
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+                <label for="phone">Phone</label>
+            </td>
+            <td>
+
+                <input type="text" id="phone" value="Enter Phone">
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+                <label for="passwd">Password</label>
+            </td>
+            <td>
+
+                <input type="password" id="passwd">
+            <td>
+        </tr>
+        <tr>
+            <td>
+
+                <label for="cpasswd">Confirm Password</label>
+            </td>
+            <td>
+
+                <input type="password" id="cpasswd">
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+
+                <input type="checkbox" id="tc">
+                <label for="tc">
+                    I Agree to the Terms of use
+                </label>
+            </td>
+        </tr>
+        <tr id="footer">
+            <td style="text-align: right;" colspan="2">
+                <input type="submit" value="Submit" id="btn" style="background-color: #7BAC67;">
+                <input type="button" value="Cancel" id="btn" style="background-color: #C05E54;">
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

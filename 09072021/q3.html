@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <style>
+
+            table{
+               background-color: #74CAFA;
+                border: 5px;
+                width: 400px;
+
+            }
+            td{
+                border: 3px solid white;
+                
+            }
+            
+            #usrform{
+                background-color: #FDFEB4;
+                color: red;
+                text-align: center;
+            }
+            #btn{
+                background-color: #DAFDD1;
+                padding: 5px;
+    
+            }
+            #btncontainer{
+                    text-align: center;
+            }
+            input,textarea,select{
+                background-color: #DAFDD1;
+            }
+            select{
+                width: 100%;
+            }
+        </style>
+
+    </head>
+    
+</style>
+
+
+    <body>
+       <table>
+           <tr>
+               <td colspan="2" id="usrform">
+
+                   <h1>User Form</h1>
+                </td>
+           </tr>
+           <tr>
+               <td>
+                   Enter Name
+               </td>
+               <td>
+                   <input type="text">
+               </td>
+           </tr>
+           <tr>
+               <td>
+                   Enter Password
+               </td>
+               <td>
+                   <input type="text">
+               </td>
+           </tr>
+           <tr>
+               <td>
+
+                   Enter Address
+                </td>
+                <td>
+                    <textarea></textarea>
+                </td>
+           </tr>
+           <tr>
+               <td>
+
+                   Select Game
+                </td>
+                <td>
+                    <div>
+                    <input type="checkbox" id="hockey">
+                    <label for="hockey">Hockey</label><br>
+                    <input type="checkbox" id="football">
+                    <label for="football">Football</label><br>
+                    <input type="checkbox" id="badmintion">
+                    <label for="badmintion">Badminton</label><br>
+                    <input type="checkbox" id="cricket">
+                    <label for="cricket">Cricket</label><br>
+                    <input type="checkbox" id="volleyball">
+                    <label for="volleyball">volleyball</label><br>
+                    </div>
+                </td>
+           </tr>
+           <tr>
+               <td>
+                   Gender
+               </td>
+               <td>
+                   <input type="radio" id="male">
+                   <label for="male">Male</label>
+                   <input type="radio" id="female">
+                   <label for="female">Female</label>
+               </td>
+           </tr>
+           <tr>
+               <td>
+                   Select ur age
+               </td>
+               <td>
+                  <select><option>select</option></select>
+               </td>
+           </tr>
+           <tr>
+               <td colspan="2" style="text-align: center;">
+                   <input type="file">
+               </td>
+           </tr>
+           <tr>
+               <td colspan="2" id="btncontainer">
+                   <input type="button" value="Click Me" id="btn">
+                   <input type="button" value="Reset" id="btn">
+                   <input type="submit" value="Submit Form" id="btn"> 
+               </td>
+           </tr>
+
+           
+       </table>
+    </body>
+</html>

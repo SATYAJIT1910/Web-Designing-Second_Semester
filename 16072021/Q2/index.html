@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Restaurant Website</title>
+  </head>
+
+  <style>
+    .nav-flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    width: 100%;
+    padding: 0;
+}
+
+.nav-flex-row li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px 15px;
+}
+
+.nav-flex-row li a {
+    color: #ffffff;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+ .section-intro {
+    height: 720px;
+    background-image: url(banner.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.section-intro h1 {
+    text-align: center;
+    color: #ee7d7d;
+    font-size: 6em;
+    font-weight: 700;
+}
+
+.section-intro header {
+    display: flex;
+    flex: 4;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.row-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column-form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 30px 20px;
+}
+.opening-time,
+.contact-adress {
+    flex: 1;
+    margin: 30px 20px;
+    font-size: 1.2em;
+}
+
+.form-group p {
+    font-size: 1.2em;
+}
+
+.opening-time p span,
+.contact-adress p span {
+    display: block;
+}
+.menu{
+
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    padding: 50px;
+
+}
+  </style>
+  <body>
+    
+    
+  <nav>
+    <ul class="nav-flex-row">
+      <li class="nav-item">
+        <a href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a href="#reservation">Reservation</a>
+      </li>
+      <li class="nav-item">
+        <a href="#menu">Menu</a>
+      </li>
+      <li class="nav-item">
+        <a href="#shop">Shop</a>
+      </li>
+    </ul>
+  </nav>
+
+  <section class="section-intro">
+    <header>
+      <h1>Fooddddie</h1>
+    </header>
+    <div class="menu">
+       Our Menu<br>
+
+      <span class="list">
+        <ul>
+          <li>Tadoori Chicken ~ 300/-</li>
+          <li>Chicken Tikka ~ 250/-</li>
+          <li>Chicken Malai Kabab ~ 500/-</li>
+          <li>Chicken Kofta ~ 400/-</li>
+          <li>Chicken Biryani ~ 300/-</li>
+          <li>Chicken Biryani with Roti ~ 450/-</li>
+
+        </ul>
+
+
+      </span>
+
+
+
+
+
+    </div>
+  </section>
+  <div class="container">
+    <div class="row-flex">
+      <div class="flex-column-form">
+        <h3>
+          Make a booking
+        </h3>
+      <form class="media-centered">
+          <div class="form-group">
+            <p>
+              Please leave your number we will call to make a reservation
+            </p>
+            <input type="name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Enter your name">
+          </div>
+          <div class="form-group">
+            <input type="number" class="form-control" id="exampleInputphoneNumber1" placeholder="Enter your phone number">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      </div>
+      <div class="opening-time">
+        <h3>
+          Opening times
+        </h3>
+        <p>
+         <span>Monday—Thursday: 08:00 — 22:00</span> 
+         <span>Friday—Saturday: 09:00 — 23:00 </span>
+         <span>Sunday: 10:00 — 17:00</span>
+        </p>
+      </div>
+      <div class="contact-adress">
+        <h3>
+          Contact
+        </h3>
+        <p>
+          <span>1800 180 1444</span>
+          <span>12/7 Chatterjee Road</span>
+          <span>Kolkata - 700001</span>
+        </p>
+      </div>
+    </div>
+    </div>
+ 
+  </body>
+  
+</html> 
